@@ -1,0 +1,6 @@
+-r common.txt
+
+fastapi
+uvicorn
+python-multipart
+pydantic

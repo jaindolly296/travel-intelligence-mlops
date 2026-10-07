@@ -1,0 +1,94 @@
+/* ===========================
+   Hide Streamlit Branding
+=========================== */
+
+#MainMenu {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+header {
+    visibility: hidden;
+}
+
+/* ===========================
+   Main App
+=========================== */
+
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 1300px;
+}
+
+/* ===========================
+   Sidebar
+=========================== */
+
+section[data-testid="stSidebar"] {
+    border-right: 1px solid #30363d;
+}
+
+section[data-testid="stSidebar"] h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* ===========================
+   Buttons
+=========================== */
+
+.stButton>button {
+
+    width: 100%;
+
+    height: 55px;
+
+    border-radius: 12px;
+
+    font-size: 18px;
+
+    font-weight: bold;
+}
+
+/* ===========================
+   Inputs
+=========================== */
+
+.stTextInput input,
+.stNumberInput input,
+.stDateInput input,
+.stTimeInput input {
+
+    border-radius: 10px;
+}
+
+div[data-baseweb="select"]>div {
+
+    border-radius: 10px;
+}
+
+/* ===========================
+   Metrics
+=========================== */
+
+div[data-testid="metric-container"] {
+
+    border-radius: 15px;
+
+    padding: 18px;
+
+    border: 1px solid #30363d;
+}
+
+/* ===========================
+   Horizontal Line
+=========================== */
+
+hr {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}

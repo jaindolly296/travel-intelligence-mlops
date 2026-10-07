@@ -1,0 +1,18 @@
+project:
+  name: Travel Intelligence MLOps
+  version: 1.0.0
+
+data:
+  raw_path: data/raw
+  processed_path: data/processed
+  interim_path: data/interim
+
+model:
+  random_state: 42
+  test_size: 0.2
+
+logging:
+  level: INFO
+
+mlflow:
+  experiment_name: Travel_Intelligence

@@ -1,0 +1,26 @@
+apache-airflow==2.10.0
+
+# Data Processing
+pandas
+numpy
+scikit-learn
+joblib
+PyYAML
+requests
+
+# Machine Learning
+mlflow
+xgboost
+lightgbm
+
+# API
+fastapi
+uvicorn
+python-multipart
+pydantic
+
+# Visualization
+plotly
+
+# UI (only if your pipeline imports Streamlit modules)
+streamlit
