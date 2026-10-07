@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.env
+
+# Git
+.git/
+.gitignore
+
+# Notebook
+.ipynb_checkpoints/
+
+# Logs
+logs/
+airflow/logs/
+
+# MLflow
+mlruns/
+
+# Artifacts
+
+
+# Models
+
+# Data (optional if not needed during image build)
+
+
+# Docker
+Docker-compose.old.yml
+airflow/docker-compose.old.yml
+
+# OS
+.DS_Store
+Thumbs.db
