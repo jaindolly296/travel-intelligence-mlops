@@ -434,7 +434,7 @@ docker compose up --build
 **Dolly Jain**
 
 - GitHub: https://github.com/jaindolly296
-- LinkedIn: www.linkedin.com/in/Dolly-singh-ds](https://www.linkedin.com/in/Dolly-singh-ds
+- LinkedIn: https://www.linkedin.com/in/dollyjain296
 
 If you found this project useful, consider giving it a ⭐ on GitHub.
 
